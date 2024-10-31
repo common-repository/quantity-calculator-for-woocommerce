@@ -1,0 +1,47 @@
+/**
+ * Admin CSS
+ */
+.eniture_quantity_calculator_user_guide {
+	margin: 70px auto;
+	padding: 20px;
+	background: #fff;
+	border-radius: 5px;
+	width: 50%;
+	position: relative;
+	transition: all 5s ease-in-out;
+}
+
+.eniture_quantity_calculator_user_guide p {
+	font-size: 14px;
+}
+
+.eniture_quantity_calculator_user_guide p.submit {
+	display: none;
+}
+
+label[for='eniture_quantity_calculator_settings_license_key'] {
+	font-weight: 400 !important;
+}
+
+label[for='eniture_quantity_calculator_settings_license_key']:after {
+	content: ' *';
+	color: red;
+}
+
+.eniture_quantity_calculator_test_connection {
+	margin-right: 10px !important;
+	margin-left: 230px !important;
+}
+
+.spinner_disable {
+	color: #000000;
+	pointer-events: none;
+	opacity: 0.5;
+}
+
+.eniture_quantity_calculator_error {
+	color: #ff0000;
+	font-size: 13px;
+	font-weight: normal !important;
+	padding-left: 10px;
+}

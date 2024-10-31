@@ -1,0 +1,14 @@
+.eniture-quantity-calculator-user-message {
+	display: block !important;
+	padding-bottom: 1em;
+}
+.eniture-quantity-calculator-square-feet-input {
+	margin-left: 1em;
+}
+.woocommerce .quantity input[type='number'] {
+	text-align: left !important;
+}
+.eniture-quantity-calculator-square-feet-div {
+	margin-bottom: 1em !important;
+	display: block !important;
+}
